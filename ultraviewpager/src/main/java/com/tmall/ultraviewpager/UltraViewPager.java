@@ -532,4 +532,9 @@ public class UltraViewPager extends RelativeLayout implements IUltraViewPagerFea
         }
     }
 
+    public void setDisableSlide(boolean slide){
+        if(viewPager != null){
+            viewPager.setDisableslide(slide);
+        }
+    }
 }

@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <com.flyco.tablayout.SegmentTabLayout
+        android:id="@+id/video_top_SegmentTabLayout"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="视频"/>
-</LinearLayout>
+        android:layout_height="@dimen/SegmentTabLayout_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        tl:tl_indicator_color="@color/tablayout_text_focuscolor"
+        tl:tl_indicator_corner_radius="@dimen/SegmentTabLayout_corner_radius"
+        tl:tl_tab_width="@dimen/SegmentTabLayout_width"
+        tl:tl_textsize="@dimen/SegmentTabLayout_text_size" />
+
+    <com.tmall.ultraviewpager.UltraViewPager
+        android:id="@+id/ultraviewpager_page_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/video_top_SegmentTabLayout"
+
+        />
+
+</RelativeLayout>

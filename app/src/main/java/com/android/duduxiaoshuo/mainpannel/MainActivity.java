@@ -94,6 +94,8 @@ public class MainActivity extends BaseActivity {
 
         mUltraViewPagerAdapter = new XFragmentAdapter(getSupportFragmentManager(),mXLazyFragmentList,fragment_title);
         mUltraViewPager.setAdapter(mUltraViewPagerAdapter);
+        mUltraViewPager.setOffscreenPageLimit(fragment_title.length);
+        mUltraViewPager.setDisableSlide(true);
 
         mUltraViewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override

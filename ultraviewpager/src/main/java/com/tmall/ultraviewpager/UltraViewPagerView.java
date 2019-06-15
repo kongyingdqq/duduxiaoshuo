@@ -62,6 +62,8 @@ public class UltraViewPagerView extends ViewPager implements UltraViewPagerAdapt
 
     private UltraViewPager.ScrollMode scrollMode = UltraViewPager.ScrollMode.HORIZONTAL;
 
+    private boolean disableslide = false;
+
     public UltraViewPagerView(Context context) {
         super(context);
         init(context, null);
@@ -334,6 +336,11 @@ public class UltraViewPagerView extends ViewPager implements UltraViewPagerAdapt
 
     @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
+        if(disableslide){
+            this.beginFakeDrag();
+            return false;
+        }
+
         if (scrollMode == UltraViewPager.ScrollMode.VERTICAL) {
             boolean intercept = super.onInterceptTouchEvent(swapTouchEvent(ev));
             //If not intercept, touch event should not be swapped.
@@ -348,5 +355,9 @@ public class UltraViewPagerView extends ViewPager implements UltraViewPagerAdapt
         if (scrollMode == UltraViewPager.ScrollMode.VERTICAL)
             return super.onTouchEvent(swapTouchEvent(ev));
         return super.onTouchEvent(ev);
+    }
+
+    public void setDisableslide(boolean disableslide) {
+        this.disableslide = disableslide;
     }
 }

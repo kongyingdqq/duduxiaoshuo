@@ -11,4 +11,7 @@
     <string name="title_youhuijuan">优惠卷</string>
     <string name="title_me">我的</string>
 
+
+    <string name="title_video_vip">全网视频</string>
+    <string name="title_video_tv">TV直播</string>
 </resources>
