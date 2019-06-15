@@ -9,6 +9,12 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        // Specifies the ABI configurations of your native
+        // libraries Gradle should build and package with your APK.
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "x86", "mips"
+        }
     }
     buildTypes {
         release {
@@ -25,6 +31,17 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
+
+    //比如module A依赖module B，module B导入butterknife，那么A是无法直接使用butterknife的，需要在A的build.gradle里面加入如下依赖：
+    //
+    //dependencies {
+    //    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+    //
+    //---------------------
+    //作者：qugengting
+    //来源：CSDN
+    //原文：https://blog.csdn.net/qugengting/article/details/80283480
+    //版权声明：本文为博主原创文章，转载请附上博文链接！
     annotationProcessor rootProject.ext.dependencies["butterknife-apt"]
 
     implementation project(path: ':fastapp')

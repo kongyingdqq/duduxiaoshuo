@@ -5,4 +5,7 @@
 
     <dimen name="commonTabLayout_height">48dp</dimen>
 
+    <dimen name="commonTabLayout_icons_height">22dp</dimen>
+    <dimen name="commonTabLayout_text_size">13dp</dimen>
+
 </resources>

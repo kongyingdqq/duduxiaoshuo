@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:tl="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".mainpannel.MainActivity">
 
     <com.tmall.ultraviewpager.UltraViewPager
         android:id="@+id/ultraviewpager_page_container"
@@ -19,22 +19,16 @@
         android:id="@+id/bottom_commontablelayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_alignParentBottom="true"
         android:background="@color/tablayout_background"
-        android:paddingBottom="5dp"
+        android:orientation="horizontal"
         android:paddingTop="5dp"
-        tl:tl_textSelectColor="#FE1212"
-        tl:tl_textUnselectColor="#66000000"
+        android:paddingBottom="5dp"
         app:tl_iconGravity="TOP"
-        app:tl_iconHeight="22dp"
-        app:tl_textsize="13dp"
-        />
-<!--    <View
-        android:layout_width="match_parent"
-        android:layout_height="1px"
-        android:background="@color/x_green"
-        android:layout_above="@+id/bottom_commontablelayout"
-        ></View>-->
+        app:tl_iconHeight="@dimen/commonTabLayout_icons_height"
+        app:tl_indicator_height="0dp"
+        app:tl_textsize="@dimen/commonTabLayout_text_size"
+        tl:tl_textSelectColor="@color/tablayout_text_focuscolor"
+        tl:tl_textUnselectColor="@color/tablayout_text_unfocuscolor" />
 
 </RelativeLayout>
