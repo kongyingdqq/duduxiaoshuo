@@ -70,12 +70,10 @@ public class TvzhiboFrameFragment extends XLazyFragment {
         mXLazyFragmentList.add(VipVideo_Frame_Fragment.newInstance());
         mXLazyFragmentList.add(TvVideo_Frame_Fragment.newInstance());
 
-        String[] fragment_title ={getString(R.string.title_xiaoshuo),getString(R.string.title_vipshipin),getString(R.string.title_news),
-                getString(R.string.title_youhuijuan),getString(R.string.title_me)};
 
-        mUltraViewPagerAdapter = new XFragmentAdapter(getActivity().getSupportFragmentManager(),mXLazyFragmentList,fragment_title);
+        mUltraViewPagerAdapter = new XFragmentAdapter(getActivity().getSupportFragmentManager(),mXLazyFragmentList,mTitles);
         ultraviewpager_page_container.setAdapter(mUltraViewPagerAdapter);
-        ultraviewpager_page_container.setOffscreenPageLimit(fragment_title.length);
+        ultraviewpager_page_container.setOffscreenPageLimit(mTitles.length);
         ultraviewpager_page_container.setDisableSlide(false);
 
         ultraviewpager_page_container.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {

@@ -14,4 +14,9 @@
 
     <string name="title_video_vip">全网视频</string>
     <string name="title_video_tv">TV直播</string>
+
+
+    <string name="title_xiaoshuo_bookshelf">书架</string>
+    <string name="title_xiaoshuo_hot">排行榜</string>
+    <string name="title_xiaoshuo_Categories">分类</string>
 </resources>
