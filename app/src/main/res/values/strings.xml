@@ -3,4 +3,12 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+
+    <string name="title_xiaoshuo">Novel</string>
+    <string name="title_vipshipin">Video</string>
+    <string name="title_news">News</string>
+    <string name="title_youhuijuan">Coupon</string>
+    <string name="title_me">Me</string>
+
 </resources>

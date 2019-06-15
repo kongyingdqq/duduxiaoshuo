@@ -1,1 +1,1 @@
-include ':app', ':fastapp'
+include ':app', ':fastapp', ':FlycoTabLayout_Lib', ':ultraviewpager'

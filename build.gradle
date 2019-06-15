@@ -16,6 +16,9 @@ buildscript {
             url 'https://dl.bintray.com/qichuan/maven/'
         }
         maven { url "https://jitpack.io" }
+
+        maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+        maven { url "http://oss.jfrog.org/oss-snapshot-local/" }
         google()
         
     }
@@ -42,6 +45,9 @@ allprojects {
             url 'https://dl.bintray.com/qichuan/maven/'
         }
         maven { url "https://jitpack.io" }
+
+        maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+        maven { url "http://oss.jfrog.org/oss-snapshot-local/" }
         google()
         
     }
