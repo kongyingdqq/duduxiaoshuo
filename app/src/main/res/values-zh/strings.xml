@@ -15,8 +15,15 @@
     <string name="title_video_vip">全网视频</string>
     <string name="title_video_tv">TV直播</string>
 
-
-    <string name="title_xiaoshuo_bookshelf">书架</string>
+ <string name="title_xiaoshuo_bookshelf">书架</string>
     <string name="title_xiaoshuo_hot">排行榜</string>
     <string name="title_xiaoshuo_Categories">分类</string>
+
+    <string name="me_title_one">免登陆\n永久VIP</string>
+    <string name="me_title_two">首款免登陆，永久VIP，集免费小说，VIP主流视频网站，TV高清直播，新闻阅读，优惠卷领取，极致体验的app。</string>
+    <string name="me_title_three">赞助攻城狮</string>
+    <string name="sponsor_weixin">微信</string>
+    <string name="sponsor_alipay">支付宝</string>
+    <string name="sponsor_friendly_reminder">温馨提示，点击二维码就可以启动赞助\n你的一顿饭钱，就是我们继续打造极致体验的动力</string>
+    <string name="sponsor_label">攻城狮：空之鹰、村东头小伙</string>
 </resources>
