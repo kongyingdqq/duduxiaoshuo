@@ -14,4 +14,13 @@
     <string name="title_video_vip">Video</string>
     <string name="title_video_tv">Tv</string>
 
+    <string name="me_title_one">No permanent \n VIP login</string>
+    <string name="me_title_two">The first no-login, permanent VIP, set free novels, VIP mainstream video website, high TV
+Clear live broadcast, news reading, coupon receipt, extreme experience app.</string>
+    <string name="me_title_three">Sponsor the siege lion</string>
+    <string name="sponsor_weixin">WeChat</string>
+    <string name="sponsor_alipay">alipay</string>
+    <string name="sponsor_friendly_reminder">Click the qr code to start sponsoring \n your meal, which is the motivation for us to continue to create the best experience</string>
+    <string name="sponsor_label">Siege lion: hollow eagle, village boy</string>
+
 </resources>
