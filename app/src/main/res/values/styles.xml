@@ -8,38 +8,4 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="MeTitleStyle" >
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">@color/me_title_two_text</item>
-        <item name="android:textSize">@dimen/sponsor_title_size</item>
-        <item name="android:gravity">center</item>
-
-    </style>
-    
-    <style name="QrCodeStyle">
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:layout_height">@dimen/qr_code_height</item>
-        <item name="android:gravity">center</item>
-        <item name="android:textColor">@color/me_title_two_text</item>
-        <item name="android:textSize">@dimen/sponsor_alipay_size</item>
-
-    </style>
-    <style name="MeTitleTwoStyle">
-
-
-        <item name="android:layout_marginTop">@dimen/me_title_two_margin_top</item>
-        <item name="android:layout_marginRight">@dimen/me_title_two_margin_left_right</item>
-        <item name="android:layout_marginLeft">@dimen/me_title_two_margin_left_right</item>
-        <item name="android:textColor">@color/me_title_two_text</item>
-        <item name="android:lineSpacingExtra">@dimen/me_title_two_line_spacing_extra</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">@dimen/me_title_two_size</item>
-
-    </style>
-
-
-
 </resources>
