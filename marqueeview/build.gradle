@@ -1,0 +1,16 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 41
+        versionName version
+    }
+}
+
+dependencies {
+    api rootProject.ext.dependencies["appcompat-v7"]
+}
+

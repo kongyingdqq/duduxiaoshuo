@@ -1,4 +1,4 @@
-package com.android.duduxiaoshuo.me;
+package com.android.duduxiaoshuo.mainpannel;
 
 import com.flyco.tablayout.listener.CustomTabEntity;
 

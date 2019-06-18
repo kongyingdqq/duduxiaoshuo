@@ -13,9 +13,19 @@
 
     <string name="title_video_vip">Video</string>
     <string name="title_video_tv">Tv</string>
- <string name="title_xiaoshuo_bookshelf">bookshelf</string>
+
+
+    <string name="title_xiaoshuo_bookshelf">bookshelf</string>
     <string name="title_xiaoshuo_hot">Hot</string>
     <string name="title_xiaoshuo_Categories">Categories</string>
+
+    <string name="title_video_vip_label">Vip</string>
+    <string name="title_other_vip_label">Others</string>
+    <string name="title_video_vip_tips">The following videos are free of charge,Please do not use them for business purposes.</string>
+
+
+    <string name="title_yangshi_label">TV Online</string>
+
   <string name="me_title_one">No permanent \n VIP login</string>
     <string name="me_title_two">The first no-login, permanent VIP, set free novels, VIP mainstream video website, high TV
 Clear live broadcast, news reading, coupon receipt, extreme experience app.</string>

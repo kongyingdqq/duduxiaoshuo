@@ -8,6 +8,21 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="VipVideoLabelsStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:textColor">@color/vipvideo_labels_color</item>
+        <item name="android:textSize">@dimen/Vipvideo_labels_textsize</item>
+    </style>
+
+    <style name="VipVideoTipsStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:textColor">@color/vipvideo_tips_color</item>
+        <item name="android:textSize">@dimen/Vipvideo_tips_textsize</item>
+    </style>
+
     <style name="MeTitleStyle" >
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -39,7 +54,4 @@
         <item name="android:textSize">@dimen/me_title_two_size</item>
 
     </style>
-
-
-
 </resources>

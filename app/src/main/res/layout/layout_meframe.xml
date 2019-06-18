@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
+
     <RelativeLayout
         android:id="@+id/me_user_head"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        >
+        android:gravity="center">
+
         <ImageView
             android:id="@+id/me_user_icon"
             android:layout_width="@dimen/me_user_width"
             android:layout_height="@dimen/me_user_width"
-            android:src="@drawable/vector_drawable_me_user"
             android:layout_marginTop="@dimen/me_user_icon_margn_top"
-            />
+            android:src="@drawable/vector_drawable_me_user" />
+
         <TextView
             android:id="@+id/me_title_one"
-            android:text="@string/me_title_one"
-            android:layout_toRightOf="@+id/me_user_icon"
-            android:layout_marginTop="@dimen/me_title_one_margn_top"
             style="@style/MeTitleStyle"
-            />
+            android:layout_marginTop="@dimen/me_title_one_margn_top"
+            android:layout_toRightOf="@+id/me_user_icon"
+            android:text="@string/me_title_one" />
     </RelativeLayout>
+
     <TextView
         android:id="@+id/me_title_two"
-        android:text="@string/me_title_two"
-        android:layout_below="@id/me_user_head"
         style="@style/MeTitleTwoStyle"
-        />
-    <include layout="@layout/layout_sponsor"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@id/me_user_head"
+        android:text="@string/me_title_two" />
+
+    <include
+        layout="@layout/layout_sponsor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/me_user_margin_bottom"
-        />
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/me_user_margin_bottom" />
 </RelativeLayout>

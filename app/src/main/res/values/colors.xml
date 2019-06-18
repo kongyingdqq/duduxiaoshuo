@@ -4,10 +4,16 @@
     <color name="colorPrimaryDark">#FFFFFF</color>
     <color name="colorAccent">#D81B60</color>
 
+    <color name="background_common_dark">#d6d6d6</color>
+
     <color name="tablayout_background">#F2F0FB</color>
     <color name="tablayout_text_focuscolor">#FE1212</color>
     <color name="tablayout_text_unfocuscolor">#66000000</color>
-    <color name="me_title_two_text">#A0A0A0</color>
+
+    <color name="vipvideo_labels_color">#696969</color>
+    <color name="vipvideo_tips_color">#d7d7d7</color>
+    
+        <color name="me_title_two_text">#A0A0A0</color>
     <color name="sponsor_label">#D7D7D7</color>
 
 </resources>

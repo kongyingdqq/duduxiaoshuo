@@ -41,6 +41,10 @@
             android:name=".webs.BrowserActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"></activity>
 
+        <activity
+            android:name=".webs.VideoBrowserActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"></activity>
+
 
         <activity
             android:name="com.tencent.smtt.sdk.VideoActivity"

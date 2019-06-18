@@ -7,7 +7,6 @@ import android.support.v4.view.ViewPager;
 import com.android.duduxiaoshuo.R;
 import com.android.duduxiaoshuo.coupons.CouponsFragment;
 import com.android.duduxiaoshuo.me.MeFragment;
-import com.android.duduxiaoshuo.me.TabEntityBean;
 import com.android.duduxiaoshuo.news.NewFrameFragment;
 import com.android.duduxiaoshuo.tvzhibo.TvzhiboFrameFragment;
 import com.android.duduxiaoshuo.xiaoshuo.XiaoshuoFrameFragment;

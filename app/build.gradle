@@ -47,5 +47,7 @@ dependencies {
     implementation project(path: ':fastapp')
     implementation project(path: ':FlycoTabLayout_Lib')
     implementation project(path: ':ultraviewpager')
+    implementation project(path: ':banner')
+    implementation project(path: ':marqueeview')
 
 }

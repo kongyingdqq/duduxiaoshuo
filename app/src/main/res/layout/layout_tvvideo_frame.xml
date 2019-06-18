@@ -4,10 +4,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
-    <TextView
+    <LinearLayout
+        android:id="@+id/yangshi_labels"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tv 直播"
-        android:textSize="50dp"/>
+        android:layout_marginTop="12dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/tv_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/title_yangshi_label"/>
+
+    </LinearLayout>
+
+    <cn.droidlover.xrecyclerview.XRecyclerView
+        android:layout_below="@id/yangshi_labels"
+        android:id="@+id/tvonline_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
 </RelativeLayout>
