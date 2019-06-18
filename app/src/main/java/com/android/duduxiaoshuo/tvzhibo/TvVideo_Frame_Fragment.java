@@ -13,8 +13,10 @@ import com.android.duduxiaoshuo.R;
 import com.android.duduxiaoshuo.tvzhibo.model.TvOnlineData;
 import com.android.duduxiaoshuo.tvzhibo.model.VipVideoViewHolder;
 import com.android.duduxiaoshuo.tvzhibo.model.VipWeb;
+import com.android.duduxiaoshuo.webs.TvOnlineBrowserActivity;
 import com.android.duduxiaoshuo.webs.VideoBrowserActivity;
 import com.android.fastapp.xdroidmvp.mvp.XLazyFragment;
+import com.tencent.smtt.sdk.TbsVideo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -119,10 +121,15 @@ public class TvVideo_Frame_Fragment extends XLazyFragment {
                     vipVideoViewHolder.item_container.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            Intent mIntent = new Intent();
-                            mIntent.setData(Uri.parse(item.getOnlineUrl()));
-                            mIntent.setClass(getActivity(), VideoBrowserActivity.class);
-                            startActivity(mIntent);
+                            if (true) {
+                                Intent mIntent = new Intent();
+                                mIntent.setData(Uri.parse(item.getOnlineUrl()));
+                                mIntent.setClass(getActivity(), TvOnlineBrowserActivity.class);
+                                startActivity(mIntent);
+                            } else {
+                                //视频播放器播放
+                                TbsVideo.openVideo(getActivity(), item.getOnlineUrl());
+                            }
                         }
                     });
                 }

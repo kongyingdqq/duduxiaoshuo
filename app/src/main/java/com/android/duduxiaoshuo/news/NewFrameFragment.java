@@ -10,6 +10,7 @@ import android.view.View;
 import com.android.duduxiaoshuo.R;
 import com.android.duduxiaoshuo.config.Commonconfig;
 import com.android.duduxiaoshuo.webs.BrowserActivity;
+import com.android.duduxiaoshuo.webs.NewsBrowserActivity;
 import com.android.duduxiaoshuo.webs.X5WebView;
 import com.android.fastapp.xdroidmvp.mvp.XLazyFragment;
 import com.tencent.smtt.sdk.WebView;
@@ -37,7 +38,7 @@ public class NewFrameFragment extends XLazyFragment {
 
                      Intent mIntent = new Intent();
                      mIntent.setData(Uri.parse(url));
-                     mIntent.setClass(getActivity(), BrowserActivity.class);
+                     mIntent.setClass(getActivity(), NewsBrowserActivity.class);
                      startActivity(mIntent);
                 }
                 return true;

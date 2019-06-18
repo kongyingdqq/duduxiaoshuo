@@ -12,8 +12,11 @@
 
     <color name="vipvideo_labels_color">#696969</color>
     <color name="vipvideo_tips_color">#d7d7d7</color>
-    
-        <color name="me_title_two_text">#A0A0A0</color>
+
+    <color name="me_title_two_text">#A0A0A0</color>
     <color name="sponsor_label">#D7D7D7</color>
+
+    <color name="jiexi_zhezhao_background_color">#66000000</color>
+
 
 </resources>

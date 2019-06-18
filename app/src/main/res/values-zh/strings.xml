@@ -34,4 +34,6 @@
     <string name="sponsor_alipay">支付宝</string>
     <string name="sponsor_friendly_reminder">温馨提示，点击二维码就可以启动赞助\n你的一顿饭钱，就是我们继续打造极致体验的动力</string>
     <string name="sponsor_label">攻城狮：空之鹰、村东头小伙</string>
+
+    <string name="vip_video_play_tips">点击播放</string>
 </resources>

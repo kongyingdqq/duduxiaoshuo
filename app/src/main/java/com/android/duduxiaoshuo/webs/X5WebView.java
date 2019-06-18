@@ -2,6 +2,7 @@ package com.android.duduxiaoshuo.webs;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.TextView;
@@ -101,6 +102,9 @@ public class X5WebView extends WebView {
         webSetting.setPluginState(WebSettings.PluginState.ON_DEMAND);
         CookieSyncManager.createInstance(mContext);
         CookieSyncManager.getInstance().sync();
+
+        //webSetting.setUserAgent("Mozilla/5.0 (Linux; Android 9; BKL-AL00 Build/HUAWEIBKL-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/72.0.3626.121 Mobile Safari/537.36");
+        Log.i("dqqqq"," getUserAgentString= "+webSetting.getUserAgentString());
 
     }
 
