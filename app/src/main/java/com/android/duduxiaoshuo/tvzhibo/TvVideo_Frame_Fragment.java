@@ -64,6 +64,39 @@ public class TvVideo_Frame_Fragment extends XLazyFragment {
         mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv12), "中央12台", "http://ivi.bupt.edu.cn/hls/cctv12.m3u8"));
         mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv13), "中央13台", "http://ivi.bupt.edu.cn/hls/cctv13.m3u8"));
         mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv14), "中央14台", "http://ivi.bupt.edu.cn/hls/cctv14.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv5_1),"体育赛事","http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"湖南卫视","http://ivi.bupt.edu.cn/hls/hunanhd.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"东方卫视","http://ivi.bupt.edu.cn/hls/dfhd.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"云南卫视","http://ivi.bupt.edu.cn/hls/yntv.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"内蒙古卫视","http://ivi.bupt.edu.cn/hls/nmtv.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"北京体育","http://ivi.bupt.edu.cn/hls/btv6hd.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"北京少儿","http://ivi.bupt.edu.cn/hls/btv10.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"厦门卫视","http://ivi.bupt.edu.cn/hls/jstv.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"四川卫视","http://ivi.bupt.edu.cn/hls/sctv.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"天津卫视","http://ivi.bupt.edu.cn/hls/tjhd.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"宁夏卫视","http://ivi.bupt.edu.cn/hls/nxtv.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"安徽卫视","http://ivi.bupt.edu.cn/hls/ahhd.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"山东卫视","http://ivi.bupt.edu.cn/hls/sdhd.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"山西卫视","http://ivi.bupt.edu.cn/hls/sxrtv.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"广东卫视","http://ivi.bupt.edu.cn/hls/gdhd.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"广西卫视","http://ivi.bupt.edu.cn/hls/gxtv.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"江苏卫视","http://ivi.bupt.edu.cn/hls/jshd.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"江西卫视","http://ivi.bupt.edu.cn/hls/jxtv.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"河北卫视","http://ivi.bupt.edu.cn/hls/hebtv.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"河南卫视","http://ivi.bupt.edu.cn/hls/hntv.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"深圳卫视","http://ivi.bupt.edu.cn/hls/szhd.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"湖北卫视","http://ivi.bupt.edu.cn/hls/hbhd.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"甘肃卫视","http://ivi.bupt.edu.cn/hls/gstv.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"东南卫视","http://ivi.bupt.edu.cn/hls/dntv.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"翡翠卫视","http://acm.gg/jade.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"贵州卫视","http://ivi.bupt.edu.cn/hls/gztv.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"辽宁卫视","http://ivi.bupt.edu.cn/hls/lnhd.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"重庆卫视","http://ivi.bupt.edu.cn/hls/cqhd.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"青海卫视","http://ivi.bupt.edu.cn/hls/gxtv.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"香港卫视","http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"));
+        mTvOnlineList.add(new TvOnlineData(getResources().getDrawable(R.mipmap.cctv1),"黑龙江卫视","http://ivi.bupt.edu.cn/hls/hljhd.m3u8"));
+
+
 
         tvonline_container.setLayoutManager(new GridLayoutManager(getActivity(), 2));
         RecyclerAdapter mRecyclerAdapter = new RecyclerAdapter(getActivity()) {
