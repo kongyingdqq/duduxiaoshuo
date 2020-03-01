@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">duduxiaoshuo</string>
+    <string name="app_name">优影视</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
@@ -37,5 +37,12 @@
 
 
     <string name="vip_video_play_tips">Click Play</string>
-
+    <string name="video_close">Close</string>
+    <string name="video_play">Play</string>
+    <string name="Replace_line">Line</string>
+    <string name="refresh">refresh</string>
+    <string name="check_network">Check Network</string>
+    <string name="updata_title">Updata</string>
+    <string name="updata_conten">【体验新升级】修复已知BUG，追剧观影流畅加倍。</string>
+    <string name="play_hint">播放提示：如果无法播放，在右上角切换线路。</string>
 </resources>

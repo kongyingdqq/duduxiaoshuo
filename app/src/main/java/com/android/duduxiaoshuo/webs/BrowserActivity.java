@@ -24,7 +24,6 @@ public class BrowserActivity extends BaseActivity {
 		Intent intent = getIntent();
 		if (intent != null && intent.getData() != null) {
 			mIntentUrl = intent.getData().toString();
-			Log.i("dqqqq","BrowserActivity   mIntentUrl="+mIntentUrl);
 			if(mIntentUrl != null){
 				mX5WebView.loadUrl(mIntentUrl);
 			}
@@ -35,7 +34,7 @@ public class BrowserActivity extends BaseActivity {
 
 			public boolean shouldOverrideUrlLoading(WebView view, String url) {
 
-				Log.i("dqqqq","BrowserActivity   url="+url);
+
 				//if(url != null && (url.startsWith("http") ||(url.startsWith("http2"))))
 				{
 					view.loadUrl(url);

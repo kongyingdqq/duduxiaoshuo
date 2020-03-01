@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tvzhibo.VipVideo_Play">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:background="@drawable/top_background"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="30dp">
+        <TextView
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:text="@string/refresh"
+            android:layout_alignParentStart="true"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="8dp"
+            android:textSize="13sp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/replace_line"
+            android:layout_width="wrap_content"
+            android:text="@string/Replace_line"
+            android:layout_alignParentEnd="true"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="8dp"
+            android:textSize="13sp"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <com.android.duduxiaoshuo.webs.X5WebView
+        android:id="@+id/x5WebView"
+        android:layout_width="match_parent"
+        android:layout_height="260dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/videopaly"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/play_hint"
+            android:gravity="center_vertical"
+            android:textColor="#B6B2B2"
+            android:textSize="12sp"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/advertising_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@mipmap/paly_advertising" />
+
+</LinearLayout>

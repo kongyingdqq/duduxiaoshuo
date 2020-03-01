@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">嘟嘟小说</string>
+    <string name="app_name">优影视</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
@@ -28,7 +28,7 @@
     <string name="title_yangshi_label">电视直播</string>
 
     <string name="me_title_one">免登陆\n永久VIP</string>
-    <string name="me_title_two">首款免登陆，永久VIP，集免费小说，VIP主流视频网站，TV高清直播，新闻阅读，优惠卷领取，极致体验的app。</string>
+    <string name="me_title_two">VIP主流视频网站，TV高清直播，新闻阅读，优惠卷领取，极致体验的app。</string>
     <string name="me_title_three">赞助攻城狮</string>
     <string name="sponsor_weixin">微信</string>
     <string name="sponsor_alipay">支付宝</string>
@@ -36,4 +36,12 @@
     <string name="sponsor_label">攻城狮：空之鹰、村东头小伙</string>
 
     <string name="vip_video_play_tips">点击播放</string>
+    <string name="video_close">关闭</string>
+    <string name="video_play">播放</string>
+    <string name="Replace_line">更换线路</string>
+    <string name="refresh">刷新</string>
+    <string name="check_network">请检查网络</string>
+    <string name="updata_title">更新啦</string>
+    <string name="updata_conten">【体验新升级】修复已知BUG，追剧观影流畅加倍。</string>
+    <string name="play_hint">播放提示：如果无法播放，在右上角切换线路。</string>
 </resources>

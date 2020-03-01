@@ -1,6 +1,7 @@
 package com.android.duduxiaoshuo.tvzhibo;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
@@ -27,6 +28,8 @@ import java.util.List;
 import butterknife.BindView;
 import cn.droidlover.xrecyclerview.RecyclerAdapter;
 import cn.droidlover.xrecyclerview.XRecyclerView;
+
+import static android.content.Context.MODE_PRIVATE;
 
 public class VipVideo_Frame_Fragment extends XLazyFragment {
 
@@ -70,15 +73,21 @@ public class VipVideo_Frame_Fragment extends XLazyFragment {
     private void initBanner() {
 
         List imagelist = Arrays.asList(Commonconfig.TOP_BANNEL_URL);
+        ArrayList<Integer> integers = new ArrayList<>();
+        integers.add(R.drawable.slideshow_1);
+        integers.add(R.drawable.slideshow_2);
+        integers.add(R.drawable.slideshow_3);
+        //integers.add("http://pic1.win4000.com/tj/2020-01-10/5e17e51e46a21.jpg");
         top_banner.setDelayTime(3000);
-        top_banner.setImages(imagelist)
+        top_banner.setImages(integers)
                 .setImageLoader(new BannelGlideImageLoader())
                 .start();
     }
 
     private void initMarqueeView() {
-
-        vipvideo_tips.startWithText(getString(R.string.title_video_vip_tips));
+        SharedPreferences data = context.getSharedPreferences("data", MODE_PRIVATE);
+        String advert = data.getString("advert", null);
+        vipvideo_tips.startWithText(advert);
     }
 
     private void initVipVideoContainer() {
@@ -96,14 +105,12 @@ public class VipVideo_Frame_Fragment extends XLazyFragment {
         RecyclerAdapter mRecyclerAdapter = new RecyclerAdapter(getActivity()) {
             @Override
             public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-
                 View view = LayoutInflater.from(getActivity()).inflate(R.layout.vipvideo_item, parent, false);
                 return new VipVideoViewHolder(view);
             }
 
             @Override
             public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
-
                 final VipWeb item = (VipWeb) getDataSource().get(position);
                 if (holder instanceof VipVideoViewHolder) {
                     VipVideoViewHolder vipVideoViewHolder = (VipVideoViewHolder) holder;

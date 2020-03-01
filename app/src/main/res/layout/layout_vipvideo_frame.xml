@@ -19,11 +19,11 @@
         android:layout_below="@id/top_banner"
         android:orientation="horizontal">
 
-        <TextView
+        <!--<TextView
             android:id="@+id/vipvideo_labels"
             style="@style/VipVideoLabelsStyle"
             android:layout_marginLeft="@dimen/Common_tablayout_margin"
-            android:text="@string/title_video_vip_label" />
+            android:text="@string/title_video_vip_label" />-->
 
         <!--<TextView-->
         <!--android:id="@+id/vipvideo_tips"-->
@@ -35,9 +35,9 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="20dp"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="10dp"
             android:layout_marginEnd="@dimen/Common_tablayout_margin"
-            android:layout_toRightOf="@id/vipvideo_labels">
+            >
 
             <ImageView
                 android:id="@+id/iv_speaker1"
